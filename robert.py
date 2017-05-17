@@ -2,6 +2,8 @@
 #REG NO: 16/U/18969
 #STUDENT NO:216020677
 #computer engineering year 1
+#This game can run in python3.6 versions without an error. The floating point number- 
+# (width//grass.get_width()+1) has been converted to an integer using '//' instead of '/'. Refer to line 56
 
 # 1 - Import library
 import pygame
