@@ -2,8 +2,8 @@
 #REG NO: 16/U/18969
 #STUDENT NO:216020677
 #computer engineering year 1
-#This game can run in python3.6 versions without an error. The floating point number- 
-# (width//grass.get_width()+1) has been converted to an integer using '//' instead of '/'. Refer to line 56
+#This game can run in python3.6 versions without an error. The floating point numbers- 
+# (width//grass.get_width()+1) and (height//grass.get_height()+1) have been converted to integers using '//' instead of '/'. Refer to line 56
 
 # 1 - Import library
 import pygame
@@ -56,7 +56,7 @@ while running:
     screen.fill(0)
     # 6 - draw the player on the screen at X:100, Y:100
     for x in range(width//grass.get_width()+1):
-        for y in range(height/grass.get_height()+1):
+        for y in range(height//grass.get_height()+1):
             screen.blit(grass,(x*100,y*100))
     screen.blit(castle,(0,30))
     screen.blit(castle,(0,135))
